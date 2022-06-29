@@ -1,3 +1,4 @@
+
 language: python
 python:
   - "3.9"
@@ -11,5 +12,3 @@ after_success:
 addons:
   sonarcloud:
     organization: pponja
-    token:
-      secure: "9a5e76ca30a473761109d7561d8fc749b678f1bb"
